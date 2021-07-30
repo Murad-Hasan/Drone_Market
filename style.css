@@ -1,0 +1,7 @@
+.title > p{
+    margin: 0;
+}
+.category_by_title{
+    padding: 15px;
+    border: 1px dotted #ccc;
+}
