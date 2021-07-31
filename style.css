@@ -5,3 +5,9 @@
     padding: 15px;
     border: 1px dotted #ccc;
 }
+.drone-slider-content{
+    margin-top: 35px;
+    width: 570px;
+    height: 469px;
+    background: #30251F;
+}
