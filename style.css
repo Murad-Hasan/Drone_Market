@@ -5,9 +5,70 @@
     padding: 15px;
     border: 1px dotted #ccc;
 }
-.drone-slider-content{
+.drone-slider{
     margin-top: 35px;
-    width: 570px;
+    position: relative;
     height: 469px;
     background: #30251F;
 }
+
+.drone-slider-content{
+    position: absolute;
+    width: 100%;
+    height: 193px;
+    bottom: 0;
+    background-color: #0C273C;
+}
+.slide-content{
+    color: #FFF;
+    align-items: center;
+}
+
+/*button*/
+
+
+.drone-adds{
+    margin-top: 35px;
+    height: 470px;
+    width: 271px;
+    background-color: #142D2F;
+    position: relative;
+}
+.drone-adds-content-section{
+    position: absolute;
+    width: 230px;
+    height: 430px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid #FFF;
+    background-color: rgb(0, 0, 0);
+}
+.square{
+    position: inherit;
+    width: 25px;
+    height: 25px;
+    background-color: #FFF;
+}
+.square-2{
+    right: 0;
+}
+.square-3{
+    bottom: 0;
+    left: 0;
+}
+.square-4{
+    bottom: 0;
+    right: 0;
+}
+.adds-content{
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFF;
+}
+.adds-content span{
+    font-size: 14px;
+}
+
