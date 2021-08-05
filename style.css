@@ -146,3 +146,27 @@
     border-top: 1px solid #FFF;
     border-bottom: 2px solid #fff;
 }
+
+/* feature-section */
+.feature-section{
+    height: 416px;
+    width: 100%;
+    background-color: #1B3C45;
+}
+.feature-box {
+    height: 416px;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+.feature-box-content > p{
+    text-align: justify;
+}
+.feature-box:hover{
+    background-color: #FFF;
+    transition: all 0.8s;
+}
+.feature-box:hover img{
+    background-color: coral;
+    
+}
